@@ -1,8 +1,8 @@
 import streamlit as st
-st.image("happy-or-sad.PNG", caption="Welcome to the Happy or Sad App!")
+st.image("happy-or-sad.PNG", caption="Which one?")
 st.set_page_config(page_title="Happy or Sad?", layout="centered")
 
-st.title("😊 Happy or Sad? 😢")
+st.title("Happy or Sad? ")
 
 # Happy button
 if st.button("Happy"):
